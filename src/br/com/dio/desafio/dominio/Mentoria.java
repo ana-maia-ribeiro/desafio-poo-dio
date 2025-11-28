@@ -7,6 +7,11 @@ public class Mentoria extends Conteudo{
 	private LocalDate date;
 	
 	
+	public Mentoria(String titulo, String descricao, LocalDate date) {
+		super(titulo, descricao);
+		this.date = date;
+	}
+	
 	public LocalDate getDate() {
 		return date;
 	}
