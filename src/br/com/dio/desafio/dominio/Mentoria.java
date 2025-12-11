@@ -6,10 +6,8 @@ public class Mentoria extends Conteudo{
 
 	private LocalDate date;
 	
-	
-	public Mentoria(String titulo, String descricao, LocalDate date) {
-		super(titulo, descricao);
-		this.date = date;
+	public Mentoria() {
+		// TODO Auto-generated constructor stub
 	}
 	
 	public LocalDate getDate() {
